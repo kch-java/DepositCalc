@@ -11,6 +11,7 @@ public class DepositCalc {
         int period = input.nextInt();
         System.out.println("Введите процентную ставку по депозиту (% годовых): ");
         double rate = input.nextDouble();
+        input.close();
 
         double profit = 0;
         for (int i = 1; i <= period; i++) {
